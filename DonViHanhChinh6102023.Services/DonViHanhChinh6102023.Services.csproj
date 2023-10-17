@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DonViHanhChinh6102023.Domain\DonViHanhChinh6102023.Domain.csproj" />
+    <ProjectReference Include="..\DonViHanhChinh6102023.Entities\DonViHanhChinh6102023.Entities.csproj" />
+    <ProjectReference Include="..\DonViHanhChinh6102023.Repositories\DonViHanhChinh6102023.Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="PagedList.Mvc" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
